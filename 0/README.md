@@ -17,3 +17,5 @@ Game Of Life Code Retreat
 - array
 - object
 - class
+- return is a function
+- parameter is a function
