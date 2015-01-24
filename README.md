@@ -1,19 +1,32 @@
-# CodeRetreat
-Game Of Life Code Retreat
+# Game Of Life Code Retreat
 
-#Általános
-- Mindig üres mappába dolgozunk
-- Inicializálni kell a környezetet
- * npm init
- * mkdir js
- * touch js/gol.js
- * mkdir spec
- * touch js/golSpec.js
- * karma init karma.conf.js
- * karma start karma.conf.js
+- Valósítsd meg a Game Of Life játékot
+- A generációkat nem kell vizualizálni
+- A feladatot csak addig kell elvinni, hogy egy generációból ki tudj számolni egy következőt
+- Nem kell megvalósítani a .lif fileok beolvasását, teszteléshez használd a lentebbi mintákat
 
-#JavaScript training
-- hello function
-- array
-- object
-- class
+# Szabályok
+ 1. Any live cell with fewer than two live neighbours dies, as if caused by under-population.
+ 2. Any live cell with two or three live neighbours lives on to the next generation.
+ 3. Any live cell with more than three live neighbours dies, as if by overcrowding.
+ 4. Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
+
+```
+Block
+**
+**
+
+Blinker
+.*.
+.*.
+.*.
+
+Glider
+..*
+*.*
+.**
+```
+
+
+
+Ne felejtsd el, hogy a világ végtelen! :)
