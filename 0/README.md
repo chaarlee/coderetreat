@@ -1,7 +1,4 @@
-# CodeRetreat
-Game Of Life Code Retreat
-
-#Általános
+## Általános
 - Mindig üres mappába dolgozunk
 - Inicializálni kell a környezetet
  * npm init
@@ -12,7 +9,7 @@ Game Of Life Code Retreat
  * karma init karma.conf.js
  * karma start karma.conf.js
 
-#JavaScript training
+## JavaScript training
 - hello function
 - array
 - object
