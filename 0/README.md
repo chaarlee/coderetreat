@@ -5,8 +5,15 @@ Game Of Life Code Retreat
 - Mindig üres mappába dolgozunk
 - Inicializálni kell a környezetet
  * npm init
- * npm install karma --save
+ * mkdir js
+ * touch js/gol.js
+ * mkdir spec
+ * touch js/golSpec.js
  * karma init karma.conf.js
  * karma start karma.conf.js
 
 #JavaScript training
+- hello function
+- array
+- object
+- class
