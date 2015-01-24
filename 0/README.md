@@ -7,8 +7,8 @@ Game Of Life Code Retreat
  * npm init
  * mkdir js
  * touch js/gol.js
- * mkdir spec
- * touch js/golSpec.js
+ * mkdir test
+ * touch test/golSpec.js
  * karma init karma.conf.js
  * karma start karma.conf.js
 
