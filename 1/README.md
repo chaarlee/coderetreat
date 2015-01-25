@@ -1,0 +1,1 @@
+# Az egyetlen megkötés, hogy a megvalósítás során használj TDD-t
